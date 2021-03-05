@@ -17181,7 +17181,7 @@ label input:checked + .menu + ul {
 }
 label ul {
   
-  position: absolute;
+  position: fixed;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -17690,8 +17690,8 @@ label a {
   z-index: 9999;
 }
 .nofade > picture {
-  background-image: url("../img/wave_sm_bg.svg");
-  /*background-size: cover;*/
+  background-image: url("../img/nav_bg.svg");
+  background-size: cover;
   background-position: bottom center;
 
   /*height: 450px;*/
