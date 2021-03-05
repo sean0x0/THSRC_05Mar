@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1981" height="506.103" viewBox="0 0 1981 506.103">
+  <defs>
+    <filter id="Path_24" x="0" y="0" width="1981" height="506.103" filterUnits="userSpaceOnUse">
+      <feOffset dx="4" dy="4" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="10" result="blur"/>
+      <feFlood flood-opacity="0.251"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Path_25" x="13" y="13" width="1951" height="479.08" filterUnits="userSpaceOnUse">
+      <feOffset dx="2" dy="2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-2"/>
+      <feFlood flood-opacity="0.251"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <radialGradient id="radial-gradient" cx="0.19" cy="0.273" r="1.158" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#3f362f"/>
+      <stop offset="1" stop-color="#73675e"/>
+    </radialGradient>
+    <filter id="Path_22_Copy" x="13" y="13" width="1950" height="456.764" filterUnits="userSpaceOnUse">
+      <feOffset dx="2" dy="2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-3"/>
+      <feFlood flood-opacity="0.2"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_3" data-name="Group 3" transform="translate(26 26)">
+    <g transform="matrix(1, 0, 0, 1, -26, -26)" filter="url(#Path_24)">
+      <path id="Path_24-2" data-name="Path 24" d="M1920,0l1,438.44s-150.163,15.45-242.328,0-166.657,26.562-272.765-3.45-184.117,15.777-268.935-3.823c-61.655-14.247-106.247-50.373-218.11-69.27s-213.741,37.642-376.223,63.093-294.908-24.415-384.891-34.815S0,373.473,0,373.473V0Z" transform="translate(26 26)" fill="#fdecda"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, -26, -26)" filter="url(#Path_25)">
+      <path id="Path_25-2" data-name="Path 25" d="M241.706,380.784c115.589,22.391,176.728,33.626,279.417,22.689s164.273-45.08,346.39-45.08,279.368,64.64,365.51,77.59S1356.517,420.828,1432,420.828c45.364,0,127.5,17.741,203.95,26.172,109.7,12.1,285.05-32.527,285.05-32.527V0H0V373.473S126.117,358.394,241.706,380.784Z" transform="translate(26 26)" fill="#a59282"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, -26, -26)" filter="url(#Path_22_Copy)">
+      <path id="Path_22_Copy-2" data-name="Path 22 Copy" d="M1710,424.25c-111,11.655-230.55-21-319-21s-175.157,20.206-305.224,11.655C949.639,405.954,847,363.417,746.555,354.12c-118.825-11-201.777,55.468-383.891,27.3C186.855,354.221,0,393.25,0,393.25V0H1920V384.417S1820.994,412.6,1710,424.25Z" transform="translate(26 26)" fill="url(#radial-gradient)"/>
+    </g>
+  </g>
+</svg>

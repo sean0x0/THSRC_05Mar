@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>高鐵探索館</title>
+
+
+
+    <!-- Custom styles for this template -->
+    <!--link href="/css/animate.min.css" rel="stylesheet"-->
+
+    
+    <link href="/css/all.css" rel="stylesheet">
+    
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <label class="d-lg-none">
+        <input type='checkbox'>
+        <span class='menu'>
+            <span class='hamburger'></span>
+        </span>
+        <ul id="mobileNav" class="navbar-nav d-none">
+            <li id="nav-booking" class="nav-item mx-auto order-first text-white">
+                <div class="border-0">
+                    <a href="#"
+                        class="yellow-underline btn px-5 bg-blackish text-white active rounded-0 py-3 shadow z-nav"
+                        role="button" aria-pressed="true">預約行程<svg xmlns="http://www.w3.org/2000/svg"
+                            width="28" height="28" fill="currentColor"
+                            class="ml-3 bi bi-calendar4-week text-light-mustard" viewBox="0 0 20 20">
+                            <path
+                                d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zM2 2a1 1 0 0 0-1 1v1h14V3a1 1 0 0 0-1-1H2zm13 3H1v9a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V5z" />
+                            <path
+                                d="M11 7.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1zm-3 0a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1zm-2 3a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1zm-3 0a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1z" />
+                        </svg></a>
+
+                </div>
+
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link mx-3 yellow-underline py-3" href="information.html">參觀資訊<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link mx-3 yellow-underline pb-3" href="aboutus.html">關於我們</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link mx-3 yellow-underline pb-3" href="exhibition.html">線上探索</a>
+                <!-- sub menu-->
+                <!--<div class="subMenu">
+                    <ul class="wrap">
+                        <li class="brown-underline"><a href="#" style="border-right: 1px solid var(--greyish-brown-four); line-height: 1;">探索花魁車</a></li>
+                        <li class="brown-underline"><a href="#">高鐵創生</a></li>
+                        <li class="brown-underline"><a href="#">高速時代</a></li>
+                        <li class="brown-underline"><a href="#">維修解密</a></li>
+                        <li class="brown-underline"><a href="#">榮耀願景</a></li>
+                        <li class="brown-underline"><a href="#">公開的密室</a></li>
+
+                    </ul>
+                </div>-->
+                <!-- sub menu-->
+            </li>
+            
+        </ul>
+        
+    </label>
+    <div id="small-booking" class="z-nav d-lg-none">
+        <a href="#"
+            class="hvr-underline-from-center btn px-2 bg-blackish text-white rounded-0 py-1 shadow"
+            role="button" aria-pressed="true"><svg xmlns="http://www.w3.org/2000/svg"
+                width="24" height="24" fill="currentColor"
+                class="mb-1 bi bi-calendar4-week text-light-mustard" viewBox="0 0 16 16">
+                <path
+                    d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zM2 2a1 1 0 0 0-1 1v1h14V3a1 1 0 0 0-1-1H2zm13 3H1v9a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V5z" />
+                <path
+                    d="M11 7.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1zm-3 0a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1zm-2 3a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1zm-3 0a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1z" />
+            </svg></a>
+
+    </div>
+    <div id="nav" class="fixed-top container-fluid" role="navigation">
+        <div id="nav-gradient"></div>
+        <div>
+            <nav class="navbar navbar-expand-lg navbar-dark bg-transparent px-0" id="top-navigation">
+                <div id="nav-list" class="container-fluid mx-4">
+                    <a id="logo" class="shrink navbar-brand mb-auto" href="index-7.html">
+                        <img src="/img/logo.svg" class="mb-3" alt="高鐵探索館">
+                    </a>
+                    
+                    <button class="navbar-toggler d-none" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    
+                    <div class="collapse navbar-collapse mt-auto" id="navbarNavDropdown">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item active">
+                                <a class="nav-link mx-3 yellow-underline py-3" href="information.html">參觀資訊<span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link mx-3 yellow-underline py-3" href="aboutus.html">關於我們</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link mx-3 yellow-underline py-3" href="exhibition.html">線上探索</a>
+                                <!-- sub menu-->
+                                <div class="subMenu">
+                                    <ul class="wrap">
+                                        
+                                        <li class="brown-underline">
+                                            <!--span class="badge bg-transparent text-warning position-absolute font-weight-normal " style="bottom: 20px; overflow:visible;">台南展區</span-->
+                                            <a href="#" style="border-right: 1px solid var(--greyish-brown-four); line-height: 1;">探索花魁車</a></li>
+                                        <li class="brown-underline"><a href="#">高鐵創生</a></li>
+                                        <li class="brown-underline"><a href="#">高速時代</a></li>
+                                        <li class="brown-underline"><a href="#">維修解密</a></li>
+                                        <li class="brown-underline"><a href="#">榮耀願景</a></li>
+                                        <li class="brown-underline"><a href="#">公開的密室</a></li>
+
+                                    </ul>
+                                </div>
+                                <!-- sub menu-->
+                            </li>
+                            <li id="nav-booking" class="nav-item ml-4 mx-auto order-lg-last order-sm-first">
+                                <div class="card border-0 ml-lg-4">
+                                    <a href="#"
+                                        class="yellow-underline btn px-5 bg-blackish text-white active rounded-0 py-3 shadow z-nav"
+                                        role="button" aria-pressed="true"><svg xmlns="http://www.w3.org/2000/svg"
+                                            width="24" height="24" fill="currentColor"
+                                            class="bi bi-calendar4-week text-light-mustard" viewBox="0 0 20 20">
+                                            <path
+                                                d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zM2 2a1 1 0 0 0-1 1v1h14V3a1 1 0 0 0-1-1H2zm13 3H1v9a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V5z" />
+                                            <path
+                                                d="M11 7.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1zm-3 0a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1zm-2 3a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1zm-3 0a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1z" />
+                                        </svg>預約行程</a>
+
+                                </div>
+
+                            </li>
+                        </ul>
+                    
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <!-- Masthead -->
+    <header>
+        <div id="header" class="nofade h-25" data-aos="fade-down">
+            <picture class="h-250px"></picture>
+        </div>
+
+    </header>
+    <main id="information" class="bg-beige">
+
+        <div class="row pt-15 pb-5">
+            <div class="col-lg-12 text-center">
+
+                <h1 class="text-greyish-brown">參觀資訊</h1>
+                <p class="h3 font-weight-light text-greyish-brown-three text-uppercase">information</p>
+            </div>
+        </div>
+        <!--防疫公告-->
+        <section id="announcement" class="showcase bg-white" id="images-showcase">
+            <div class="d-flex flex-column px-md-6 py-md-5 p-5">
+                <div>
+                    <div class="row no-gutters">
+                        <div class="col-lg-12 text-left">
+
+                            <h2 class="text-greyish-brown-three underline">防疫公告</h2>
+
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="row no-gutters justify-content-center text-md-center text-left text-brownish-grey-two">
+
+                        <div class="col-md-4 order-lg-1 p-2" data-aos="fade-up"
+                        data-aos-anchor-placement="top-bottom">
+                            <div class="row">
+                                <div class="col-md-12 col-sm-6 col-4"><img src="/img/disinfect.svg" class="img-fluid" alt="進入館內，配合酒精消毒"></div>
+                                <div class="h3 col-md-12 col-sm-6 col-8 align-self-center">進入館內，配合酒精消毒</div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 order-lg-2 p-2" data-aos="fade-up"
+                        data-aos-anchor-placement="top-bottom">
+                            <div class="row">
+                                <div class="col-md-12 col-sm-6 col-4"><img src="/img/mask.svg" class="img-fluid" alt="出入展館，口罩不離身"></div>
+                                <div class="h3 col-md-12 col-sm-6 col-8 align-self-center">出入展館，口罩不離身</div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 order-lg-3 p-2" data-aos="fade-up"
+                        data-aos-anchor-placement="top-bottom">
+                            <div class="row">
+                                <div class="col-md-12 col-sm-6 col-4"><img src="/img/temperature.svg" class="img-fluid" alt="配合公共場合量體溫"></div>
+                                <div class="h3 col-md-12 col-sm-6 col-8 align-self-center">配合公共場合量體溫</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <!--展館資訊-->
+       
+        <section id="info" class="showcase" id="images-showcase">
+            <div class="row">
+                <div class="col-lg-6 col-12 px-0">
+                    <div class="d-flex flex-column px-md-6 py-md-5 p-5">
+                        <div>
+        
+        
+                            <h2 class="text-greyish-brown-three">展館資訊</h2>
+        
+                        </div>
+        
+                        <div class="px-4 text-brownish-grey-two" data-aos="fade-up"
+                        data-aos-anchor-placement="top-bottom">
+                            <p>開放時間：每週二至週六 09:30~12:30 | 14:00~16:30<br>
+                                休館時間：每週日、週一及國定假日</p>
+                            <br>
+                            <p>地址：320桃園市中壢區高鐵北路一段2號</p>
+                             <p>電話：03-2610001（請於開館時間內聯絡）</p>
+                        </div>
+        
+        
+                    </div>
+                </div>
+                <div class="col-lg-6 col-12 px-0">
+                    <div class="d-flex flex-column px-md-6 py-md-5 p-5" style="background: #efe5d3;">
+                        <div>
+        
+        
+                            <h2 class="text-greyish-brown-three">台南展區</h2>
+        
+                        </div>
+        
+                        <div class="px-4 text-brownish-grey-two" data-aos="fade-up"
+                        data-aos-anchor-placement="top-bottom">
+                            <p>花魁車地景公園</p>
+                            <p>開放時間：09:00-21:00</p>
+                            <br>
+                            <p>參觀方式：<span class="font-weight-bold">免費自由參觀</span></p>
+                                <p>地址：台南市歸仁區歸仁大道100號（高鐵台南站前廣場）</p>
+                        </div>
+        
+        
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--預約方式-->
+        <section id="booking" class="showcase bg-white" id="images-showcase">
+            <div class="d-flex flex-column px-md-6 py-md-5 p-5">
+                <div>
+                    <div class="row no-gutters">
+                        <div class="col-lg-12 text-left">
+
+                            <h2 class="text-greyish-brown-three">預約方式</h2>
+
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="row no-gutters px-4" data-aos="fade-up"
+                    data-aos-anchor-placement="top-bottom">
+
+                        <div class="col-lg-9 text-brownish-grey-two">
+                            <p>入館採線上預約免費參觀，個別參觀及團體上網預約報名時，請填寫正確Email信箱，方能接收確認回函於預約時段來訪。<br>
+                                1. 預約上午參觀者，需於參觀前一日下午16:00前完成預約。<br>
+                                2. 預約下午參觀者，需於參觀當日上午12:00前完成預約。<br>
+                                線上預約採實名填寫，請於參訪當日依預約單號攜代表人身份證件於一樓保全服務台辦理換證進館參觀。<br>
+                                本館為企業形象展館，全區攝影監控中；參訪時請勿喧嘩、奔跑、飲食、跨越展區、觸摸展品等，並遵照館務、保全人員引導，愛護館內設施。<br>
+                                各導覽時段有團數及成團人數限制，依網路預約成功為準。團體導覽應有10名10歲以上成員(每團30人為度)，即可預約。<br>
+                                團體導覽最晚於預約時間20分鐘內完成集合報到手續，逾時將取消導覽，改為自由參觀。</p>
+                        </div>
+                        <div class="col-lg-3 align-self-center d-flex justify-content-center pt-4 pt-lg-0">
+                            <a href="#"
+                                class="h4 btn btn-light-mustard rounded-0 text-greyish-brown-four px-5 py-3 shadow">立即預約</a>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+
+
+        </section>
+        <!--參訪學習單下載-->
+        <section id="download" class="showcase" id="images-showcase">
+            <div class="d-flex flex-column px-md-6 py-md-5 p-5">
+                <div>
+                    <div class="row no-gutters">
+                        <div class="col-lg-12 text-left">
+
+                            <h2 class="text-greyish-brown-three">參訪學習單下載</h2>
+
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="row no-gutters px-4 text-brownish-grey-two" data-aos="fade-up"
+                    data-aos-anchor-placement="top-bottom">
+                        <div class="col-lg-12">
+                            <p>台灣高鐵探索館以鐵道文化為資源，撰繪出交通科技教育的藍本，本館依不同年齡設計學習單，歡迎自由下載運用，來一趟台灣鐵道的時空之旅。</p>
+                        </div>
+                        <div class="col-lg-12 d-flex flex-row justify-content-start justify-content-md-center pt-4">
+                            <div class="p-2">
+                                <a href="#"
+                                    class="h4 btn btn-light-mustard rounded-0 text-greyish-brown-four px-5 py-3 shadow">國小</a>
+                            </div>
+                            <div class="p-2">
+                                <a href="#"
+                                    class="h4 btn btn-light-mustard rounded-0 text-greyish-brown-four px-5 py-3 shadow">國中</a>
+                            </div>
+                            <div class="p-2">
+                                <a href="#"
+                                    class="h4 btn btn-light-mustard rounded-0 text-greyish-brown-four px-5 py-3 shadow">高中大專院校</a>
+                            </div>
+                        </div>
+                        
+
+                    </div>
+                </div>
+
+            </div>
+
+
+
+        </section>
+        <!--交通資訊-->
+        <section id="traffic" class="showcase bg-white" id="images-showcase">
+            <div class="d-flex flex-column px-md-6 py-md-5 p-5">
+                <div>
+                    <div class="row no-gutters">
+                        <div class="col-12 text-left">
+
+                            <h2 class="text-greyish-brown-three">交通資訊</h2>
+
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="row no-gutters px-4">
+
+                        <div class="col-12" data-aos="fade-up"
+                        data-aos-anchor-placement="top-bottom">
+
+                            <div class="row">
+                                <div class="col-lg-6 col-12 embed-responsive embed-responsive-4by3"><iframe
+                                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3615.654593585438!2d121.21170525105242!3d25.01185018390412!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x346821078b6be395%3A0xc8e59f7dc1b44c1c!2z5Y-w54Gj6auY6ZC15o6i57Si6aSo!5e0!3m2!1szh-TW!2stw!4v1613481306578!5m2!1szh-TW!2stw"
+                                        width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""
+                                        aria-hidden="false" tabindex="0"></iframe></div>
+                                <div class="col-lg-6 col-12 border">
+                                    <ol class="list-group f">
+                                        <li class="list-group-item border-0">1. 高鐵-桃園站，5號出口，步行約5分鐘
+
+
+
+                                        </li>
+                                        <li class="list-group-item border-0">2. 公車-高鐵桃園站
+                                            132A、170、172、206、206A、208、210、302、
+                                            302A、501、5081、5087、5087A、5089、707A、
+                                            L209、L209A、L512、 L513、L515、L516A、L605、
+                                            L605A、L606
+                                        </li>
+                                        <li class="list-group-item border-0">3. 桃園捷運-A18高鐵桃園站，步行約5分鐘</li>
+                                        <li class="list-group-item border-0">4. 大型車輛、遊覽車，可暫停於高鐵桃園站客運轉運站第11號月
+                                            台上、下客 (限停5分鐘)</li>
+                                        <li class="list-group-item border-0">5. 本館交通便利，請多加利用大眾運輸交通工具，自行開車者則
+                                            可至高鐵桃園站週邊收費停車場停放</li>
+                                    </ol>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-12 text-brownish-grey-two pt-4" data-aos="fade-up"
+                        data-aos-anchor-placement="top-bottom">
+                            <p>附近景點：</p>
+                            <ul class="list-group">
+                                <li class="list-group-item border-0">
+                                    (1) 華泰名品城：自高鐵桃園站6號出口出站，徒步約5分鐘。
+                                    </li>
+                                <li class="list-group-item border-0">(2) Xpark水族館：自高鐵桃園站6號出口出站，徒步約9分鐘。
+
+                                </li>
+                                <li class="list-group-item border-0">(3) 青塘園：自高鐵桃園站出發，車程約5分鐘。</li>
+                            </ul>
+                        </div>
+
+
+                    </div>
+                </div>
+
+            </div>
+
+
+
+        </section>
+        <!--常見問題-->
+        <section id="QA" class="showcase bg-greyish-brown" id="images-showcase">
+            <div class="row text-white px-md-6 py-md-5 p-5">
+                <div class="col-12 text-left">
+
+                    <h2>常見問題 Q&A</h2>
+
+                </div>
+                <div class="col-12 text-left text-brownish-grey-two">
+
+                    <div class="accordion px-4" id="accordionExample">
+                        <div class="card rounded-0 border-0" data-aos="fade-up"
+                        data-aos-anchor-placement="top-bottom">
+                            <div class="card-header p-0" id="headingOne">
+                                <h3 class="mb-0">
+                                    <button class="btn btn-link btn-block text-left border-0 text-decoration-none shadow" style="padding: 1.25rem;"
+                                        type="button" data-toggle="collapse" data-target="#collapseOne"
+                                        aria-expanded="true" aria-controls="collapseOne">
+                                        Q：請問參觀一定要預約嗎？
+                                    </button>
+                                    
+                                </h3>
+                            </div>
+
+                            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
+                                data-parent="#accordionExample">
+                                <div class="card-body bg-warm-grey text-white shadow">
+                                    A：本館參觀採網路預約至，敬請事先上網預約參觀行程。
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card rounded-0 border-0 mt-3" data-aos="fade-up"
+                        data-aos-anchor-placement="top-bottom">
+                            <div class="card-header p-0" id="headingTwo">
+                                <h3 class="mb-0">
+                                    <button
+                                        class="btn btn-link btn-block text-left collapsed border-0 text-decoration-none shadow" style="padding: 1.25rem; box-shadow: 4px 4px 16px 0 rgba(0, 0, 0, 0.3);"
+                                        type="button" data-toggle="collapse" data-target="#collapseTwo"
+                                        aria-expanded="false" aria-controls="collapseTwo">
+                                        Q：如網路預約額滿，可以至現場排隊嗎？
+                                    </button>
+                                    
+                                </h3>
+                            </div>
+                            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo"
+                                data-parent="#accordionExample">
+                                <div class="card-body bg-warm-grey text-white shadow">
+                                    A：現場無後補入館機制，未開放臨時來館參觀。
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card rounded-0 border-0 mt-3" data-aos="fade-up"
+                        data-aos-anchor-placement="top-bottom">
+                            <div class="card-header p-0" id="headingThree">
+                                <h3 class="mb-0">
+                                    <button
+                                        class="btn btn-link btn-block text-left collapsed border-0 text-decoration-none shadow" style="padding: 1.25rem;"
+                                        type="button" data-toggle="collapse" data-target="#collapseThree"
+                                        aria-expanded="false" aria-controls="collapseThree">
+                                        Q：我可以預約幾天後的參觀？
+                                    </button>
+                                    
+                                </h3>
+                            </div>
+                            <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
+                                data-parent="#accordionExample">
+                                <div class="card-body bg-warm-grey text-white shadow">
+                                    A：當月份開放未來兩個月的參觀預約。例：9/1及開放10月及11月份的參觀預約。
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+
+
+        </section>
+
+
+
+    </main>
+
+
+    <!-- Footer -->
+    <footer class="footer bg-primary" id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 h-50 text-center my-auto">
+                    <ul class="list-inline mb-2">
+                        <li class="list-inline-item">
+                            <a href="#" class="text-white-50">常見問題</a>
+                        </li>
+                        <li class="list-inline-item text-white-50">|</li>
+                        <li class="list-inline-item">
+                            <a href="#" class="text-white-50">聯絡我們</a>
+                        </li>
+                        <li class="list-inline-item text-white-50">|</li>
+                        <li class="list-inline-item">
+                            <a href="#" class="text-white-50">個人資料保護專區</a>
+                        </li>
+                        <li class="list-inline-item text-white-50">|</li>
+                        <li class="list-inline-item">
+                            <a href="#" class="text-white-50">智慧財產權及免責條款宣告</a>
+                        </li>
+                    </ul>
+                    <p class="text-muted small mb-4 mb-lg-0 text-white-50">台灣高速鐵路股份有限公司 版權所有© Taiwan High Speed Rail
+                        Corporation. All Rights Reserved.</p>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- Bootstrap core JavaScript -->
+    <script
+    src="https://code.jquery.com/jquery-3.5.1.min.js"
+    integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+    crossorigin="anonymous"
+  ></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+        crossorigin="anonymous"></script>
+        <script src="/js/scroll.navbar.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
+    <script>
+        $(document).ready(function () {
+            $('li.nav-item').hover(function(){
+                $(this).children('div.subMenu').stop().slideToggle(600);
+            })
+        })
+    </script>
+
+    <!--
+        <script src="/js/wow.min.js"></script>
+        <script src="/js/classie.js"></script>
+    <script src="/js/cbpAnimatedHeader.js"></script>
+    
+    <script src="/js/inspinia.js"></script>
+    -->
+
+
+
+
+</body>
+
+</html>

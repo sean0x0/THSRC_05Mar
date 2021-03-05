@@ -1,0 +1,9 @@
+<svg id="Oval" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="867" height="867" viewBox="0 0 867 867">
+  <defs>
+    <radialGradient id="radial-gradient" cx="0.072" cy="0.151" r="1.085" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff" stop-opacity="0.4"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <circle id="Oval-2" data-name="Oval" cx="433.5" cy="433.5" r="433.5" fill="url(#radial-gradient)"/>
+</svg>

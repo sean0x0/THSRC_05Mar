@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="185.302" height="123.816" viewBox="0 0 185.302 123.816">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.81" y1="1" x2="0" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#dcc8b5"/>
+      <stop offset="1" stop-color="#e6dacf"/>
+    </linearGradient>
+    <filter id="Combined_Shape" x="56" y="47.723" width="84.201" height="67" filterUnits="userSpaceOnUse">
+      <feOffset dx="1" dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feFlood flood-color="#c4b091"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient-2" x1="0.777" y1="0.745" x2="0" y2="0.208" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#73675e"/>
+      <stop offset="1" stop-color="#988c84"/>
+    </linearGradient>
+    <filter id="Combined_Shape-2" x="96.064" y="0" width="80.453" height="80.453" filterUnits="userSpaceOnUse">
+      <feOffset dx="1" dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="2" result="blur-2"/>
+      <feFlood flood-color="#88745d"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <radialGradient id="radial-gradient" cx="0.249" cy="0.064" r="0.672" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#d2c4b8"/>
+      <stop offset="1" stop-color="#a59282"/>
+    </radialGradient>
+    <filter id="Rectangle" x="104.208" y="9.569" width="81.094" height="81.094" filterUnits="userSpaceOnUse">
+      <feOffset dx="2" dy="2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-3"/>
+      <feFlood flood-opacity="0.251"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient-3" x1="0.242" x2="0.688" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#73675e"/>
+      <stop offset="1" stop-color="#63584f"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-4" x1="0.656" y1="0.966" x2="0.028" y2="0.021" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f3e2d1"/>
+      <stop offset="1" stop-color="#fff8f1"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-5" x1="0.777" y1="0.745" x2="0" y2="0.208" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#73675e"/>
+      <stop offset="1" stop-color="#92877f"/>
+    </linearGradient>
+    <filter id="Rectangle_Copy_56" x="9" y="61.584" width="35.908" height="53.232" filterUnits="userSpaceOnUse">
+      <feOffset dx="1" dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="2" result="blur-4"/>
+      <feFlood flood-color="#b59d82"/>
+      <feComposite operator="in" in2="blur-4"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <radialGradient id="radial-gradient-2" cx="0.876" cy="-0.07" r="0.836" xlink:href="#radial-gradient"/>
+    <filter id="Rectangle_Copy_56-2" x="0" y="52.584" width="53.908" height="71.232" filterUnits="userSpaceOnUse">
+      <feOffset dx="2" dy="2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-5"/>
+      <feFlood flood-opacity="0.251"/>
+      <feComposite operator="in" in2="blur-5"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient-6" x1="0.81" y1="1" x2="0" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ded2c5"/>
+      <stop offset="1" stop-color="#e6d9cf"/>
+    </linearGradient>
+    <filter id="Combined_Shape_Copy" x="32.664" y="54.338" width="83.447" height="66.427" filterUnits="userSpaceOnUse">
+      <feOffset dx="1" dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="2" result="blur-6"/>
+      <feFlood flood-color="#c4b091"/>
+      <feComposite operator="in" in2="blur-6"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_27" data-name="Group 27" transform="translate(13 4.293)">
+    <g id="Group_25" data-name="Group 25" transform="translate(48 48.43)">
+      <g transform="matrix(1, 0, 0, 1, -61, -52.72)" filter="url(#Combined_Shape)">
+        <path id="Combined_Shape-3" data-name="Combined Shape" d="M34.434,55H10.553v-.014A11.111,11.111,0,0,1,0,43.889V10.555H.03A11.388,11.388,0,0,1,11.386,0h23.88a5.278,5.278,0,0,1,0,10.555H24.993v.556H60.259a5.278,5.278,0,0,1,0,10.555H34.434v.555H66.923a5.278,5.278,0,0,1,0,10.556H34.434v.555H60.259a5.278,5.278,0,1,1,0,10.555H34.434v.556H45.818a5.278,5.278,0,1,1,0,10.555Z" transform="translate(61 52.72)" fill="url(#linear-gradient)"/>
+      </g>
+    </g>
+    <g id="Group_11" data-name="Group 11" transform="translate(86.645 19.873) rotate(-45)">
+      <g id="Group_15" data-name="Group 15" transform="translate(1.008 0.327)">
+        <g transform="matrix(0.71, 0.71, -0.71, 0.71, -54.38, -87.87)" filter="url(#Combined_Shape-2)">
+          <path id="Combined_Shape-4" data-name="Combined Shape" d="M4,69.71a4,4,0,0,1-4-4V28.548a4,4,0,0,1,3.9-4,1,1,0,0,1-.143-.516V17a1,1,0,0,1,1-1h1.38a2,2,0,0,1-.122-.688V2a2,2,0,0,1,2-2H19.067a2,2,0,0,1,2,2V15.312a2,2,0,0,1-.122.688h1.38a1,1,0,0,1,1,1v7.033a1,1,0,0,1-.143.516,4,4,0,0,1,3.915,4V65.709a4,4,0,0,1-4,4Z" transform="translate(101.06 24.16) rotate(-45)" fill="url(#linear-gradient-2)"/>
+        </g>
+      </g>
+      <g transform="matrix(0.71, 0.71, -0.71, 0.71, -53.37, -87.55)" filter="url(#Rectangle)">
+        <rect id="Rectangle-2" data-name="Rectangle" width="27.097" height="45.161" rx="4" transform="translate(117.21 41.73) rotate(-45)" fill="url(#radial-gradient)"/>
+      </g>
+      <rect id="Rectangle-3" data-name="Rectangle" width="19.57" height="9.032" rx="1" transform="translate(3.763 16)" fill="url(#linear-gradient-3)"/>
+      <rect id="Rectangle_Copy_57" data-name="Rectangle Copy 57" width="15.054" height="17.312" rx="2" transform="translate(6.022 0)" fill="url(#linear-gradient-4)"/>
+      <circle id="Oval" cx="1.882" cy="1.882" r="1.882" transform="translate(8.28 6.774)" fill="#73675e"/>
+    </g>
+    <g id="Group_14" data-name="Group 14" transform="translate(39 22.528)">
+      <path id="Path_2" data-name="Path 2" d="M52.283,0,0,30.662,51.249,62.124,56.172,2.945Z" transform="translate(0.443 1.338)" fill="rgba(255,255,255,0.6)"/>
+      <g id="Group_12" data-name="Group 12">
+        <path id="Line_2" data-name="Line 2" d="M5.415.442.492,59.62" transform="translate(51.2 3.842)" fill="none" stroke="#73675e" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1"/>
+        <path id="Line_3" data-name="Line 3" d="M28.641,0l-28,22.525" transform="translate(6.892 18.611)" fill="none" stroke="#73675e" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1"/>
+        <path id="Line_3_Copy_2" data-name="Line 3 Copy 2" d="M16.2.818.341,25.5" transform="translate(23.631 25.503)" fill="none" stroke="#73675e" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1"/>
+        <path id="Line_3_Copy" data-name="Line 3 Copy" d="M9.781.652.115,33.745" transform="translate(41.385 15.657)" fill="none" stroke="#73675e" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1"/>
+        <path id="Line" d="M.443,31.058,52.726.45" transform="translate(0 0.888)" fill="none" stroke="#73675e" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1"/>
+      </g>
+    </g>
+    <g id="Group_26" data-name="Group 26" transform="translate(0 54.045)">
+      <g transform="matrix(1, 0, 0, 1, -13, -58.34)" filter="url(#Rectangle_Copy_56)">
+        <rect id="Rectangle_Copy_56-3" data-name="Rectangle Copy 56" width="23.908" height="41.232" rx="4" transform="translate(14 66.58)" fill="url(#linear-gradient-5)"/>
+      </g>
+      <g transform="matrix(1, 0, 0, 1, -13, -58.34)" filter="url(#Rectangle_Copy_56-2)">
+        <rect id="Rectangle_Copy_56-4" data-name="Rectangle Copy 56" width="23.908" height="41.232" rx="4" transform="translate(13 65.58)" fill="url(#radial-gradient-2)"/>
+      </g>
+      <g transform="matrix(1, 0, 0, 1, -13, -58.34)" filter="url(#Combined_Shape_Copy)">
+        <path id="Combined_Shape_Copy-2" data-name="Combined Shape Copy" d="M34.075,54.427H10.443v-.014A11,11,0,0,1,0,43.431V10.445H.03A11.269,11.269,0,0,1,11.267,0H34.9a5.223,5.223,0,1,1,0,10.445H24.732V11h34.9a5.223,5.223,0,1,1,0,10.445H34.075v.55h32.15a5.223,5.223,0,1,1,0,10.445H34.075v.55H59.63a5.223,5.223,0,1,1,0,10.445H34.075v.55H45.34a5.223,5.223,0,0,1,0,10.445Z" transform="translate(37.66 59.34)" fill="url(#linear-gradient-6)"/>
+      </g>
+      <path id="Combined_Shape_Copy-3" data-name="Combined Shape Copy" d="M34.075,54.427H10.443v-.014A11,11,0,0,1,0,43.431V10.445H.03A11.269,11.269,0,0,1,11.267,0H34.9a5.223,5.223,0,1,1,0,10.445H24.732V11h34.9a5.223,5.223,0,1,1,0,10.445H34.075v.55h32.15a5.223,5.223,0,1,1,0,10.445H34.075v.55H59.63a5.223,5.223,0,1,1,0,10.445H34.075v.55H45.34a5.223,5.223,0,0,1,0,10.445Z" transform="translate(23.664)" fill="url(#linear-gradient-4)"/>
+    </g>
+  </g>
+</svg>
